@@ -1,0 +1,30 @@
+# Protected Python: It's time we had 'the talk'
+
+## Elevator Pitch
+
+Today, developers and users of Python need to be aware of cybersecurity principles more
+than ever before.  In this talk, we'll go over some of the biggest issues that
+developers face as vulnerabilities and how to protect against them.
+
+## Description
+
+In this talk we'll go over some of the major issue they face when it comes to developing
+Python application and cybersecurity principals.  These may include:
+
+* typo squatting of pip packages
+* using the `eval` function on untrusted code
+* using untrusted `pickle`'d data
+* using old/outdated packages
+
+Additionally we'll cover different ways to protect yourself from these attacks:
+
+* checking signed packages
+* using package managers such as conda to keep packages updated
+* using the package `safety` to run checks
+* make sure the package you're installing is the correct package
+
+## Notes
+
+I work at NASA's Jet Propulsion Laboratory as a Software Assurance Engineer where I work
+with a team of other engineers in identifying and assuring different aspects of
+cybersecurity practices and principles.
